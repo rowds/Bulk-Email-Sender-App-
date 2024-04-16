@@ -6,7 +6,9 @@
 Message1.txt<br>
 Message2.txt<br>
 Message3.txt<br>
-Message4.txt<br><br>
+Message4.txt<br>
+6. If for any reason the program crashes or you close the program, 
+   when the program reruns again it will continue sending mails from where it was left off without repeating the same recipients. <br>
 
 App pasword Link https://myaccount.google.com/apppasswords <br><br>
 
