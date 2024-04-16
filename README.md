@@ -1,7 +1,7 @@
-1. Create a google account and create the app key.<br>
-2. Paste the App key in to user.csv file.<br>
-3. paste all your contacts to mails.csv file.<br>
-4. Type your Messsage in to Message1.txt file<br>
+1. Create a google account and then turn on 2FA. After that create the google app passowrd.<br>
+2. Paste the app passowrds along with sender emails in to user.csv file.<br>
+3. paste all your recipients emails in mails.csv file.<br>
+4. Type your Messsages in to Message[i].txt file<br>
 5. You can have multipale emails messages, file name must be <br>
 Message1.txt<br>
 Message2.txt<br>
@@ -16,4 +16,3 @@ Download VS Code https://code.visualstudio.com/download<br><br>
 To install requirements libraries in VS code editor copy this code and paste in your Terminal.<br>
 pip install -r requirements.txt<br><br>
 
-For More Details Watch the Youtube Video https://www.youtube.com/watch?v=x8rnQvCoycI 

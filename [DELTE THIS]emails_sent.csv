@@ -1,0 +1,8 @@
+This file is given as an example. 
+DELETE the file before running the programpython script or the app for the first time.
+This file will be automatically genereted in the same directory after you run the python script or the app for the first time.
+It is IMPORTANT to always keep this file in the same directory as the python script or the executable app.
+This csv database is used to keep track of which to which recipients emails has been sent and from which sender.
+If for any reason the program crashes or you close the program, 
+when the program reruns again it helps the program continue sending mails from where it was left off without repeating the same recipients.
+

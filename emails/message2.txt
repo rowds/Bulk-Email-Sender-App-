@@ -1,0 +1,10 @@
+Hi,
+This is a test email.
+[Your message]
+Thank You,
+Automate Passive Income
+[Sender Name]
+
+ You can delete the whole content and write your own messsage in HTML or plain text if you want to. 
+ Here two text files are shown as examples. 
+ But you can add as many text files as you want, the python script or the app will detect it automatically.

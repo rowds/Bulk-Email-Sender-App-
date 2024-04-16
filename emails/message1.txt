@@ -1,6 +1,18 @@
 Hi,
 This is a test email.
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <h1 style="color: #5e9ca0; text-align: center;">[REPLACE WITH YOUR HEADING IN EMAIL BODY]</h1>
+    <p style="color: #2e6c80; text-align: justify;">[YOUR MESSAGE].</p>
+</body>
+</html>
 
 Thank You,
-Automate Passive Income
-Youtube Channel.
+[Sender Name]
+
+ You can delete the whole content and write your own messsage in HTML or plain text if you want to. 
+ Here two text files are shown as examples. 
+ But you can add as many text files as you want, the python script or the app will detect it automatically.
