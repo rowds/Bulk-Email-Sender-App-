@@ -12,6 +12,8 @@ Message4.txt<br>
 
 App pasword Link https://myaccount.google.com/apppasswords <br><br>
 
-To install requirements libraries in VS code editor copy this code and paste in your Terminal.<br>
-pip install -r requirements.txt<br><br>
+
+To install requirements libraries, copy this code and paste in your Terminal.<br>
+pip install -r requirements.txt<br>
+Only for running python script, not needed for standalone exe.<br><br>
 
