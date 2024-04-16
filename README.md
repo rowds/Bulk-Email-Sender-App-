@@ -1,7 +1,7 @@
 1. Create a google account and then turn on 2FA. After that create the google app passowrd.<br>
 2. Paste the app passowrds along with sender emails in to user.csv file.<br>
 3. paste all your recipients emails in mails.csv file.<br>
-4. Type your Messsages in to Message[i].txt file<br>
+4. Type your Messsages in to Message[i].txt files<br>
 5. You can have multipale emails messages, file name must be <br>
 Message1.txt<br>
 Message2.txt<br>
