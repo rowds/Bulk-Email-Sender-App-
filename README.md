@@ -4,7 +4,7 @@ This Python application allows you to send bulk emails with ease. It is built wi
 
 ## Features
 
-- Send bulk emails from multiple sender accounts (sender accounts should be gmail accounts only, with app password enable).
+- Send bulk emails from multiple sender accounts (sender accounts should be gmail accounts only, with app password enabled).
 - Attach images to your emails.
 - Customize the body of your emails with unique user IDs and order IDs.
 - Log all sent emails and errors encountered during the process.
@@ -26,7 +26,7 @@ You can also use the standalone Emaail Sender.exe file, without installing any p
 
 ## CSV File Formats
 
-- The user CSV file should contain the sender's email and password in each row.
+- The user CSV file should contain the sender's gmail and app password in each row. (For help with gmail app password refer to this - https://support.google.com/accounts/answer/185833?hl=en)
 - The recipient CSV file should contain the recipient's email in each row.
 
 ## Note
