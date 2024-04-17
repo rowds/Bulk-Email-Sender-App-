@@ -32,7 +32,6 @@ def read_sent_emails_log():
     try:
         with open("emails_sent.csv", "r") as file:
             reader = csv.reader(file)
-            next(reader)  # Skip the header row if present
             for row in reader:
                 recipient = row[1].strip().strip("[]").replace("'", "")
                 sent_recipients1.add(recipient)
@@ -40,6 +39,7 @@ def read_sent_emails_log():
         pass
     return sent_recipients1
 
+#main driver code
 def send_emails(usercsv, mailscsv, message_dir, replyto, subject, name, image):
     counter = {}
     failed_senders = {}
@@ -104,9 +104,8 @@ def send_emails(usercsv, mailscsv, message_dir, replyto, subject, name, image):
                     server.send_message(em)
                     counter[sender] += 1
                     print(counter[sender], " emails sent", "From ", sender,  "To ", row ,"File ", random_file)
-
-
                     sent_recipients.add(recipient)
+                    
                     # Write the sent email to emails_sent.csv
                     with open("emails_sent.csv", "a", newline='') as file:
                         writer = csv.writer(file)
@@ -135,7 +134,7 @@ def send_emails(usercsv, mailscsv, message_dir, replyto, subject, name, image):
     if error_messages:
         ErrorDialog(root, "\n".join(error_messages))
 
-
+#Code for the GUI
 root = tk.Tk()
 root.title("Email Sender")
 root.configure(bg='black')
@@ -175,6 +174,7 @@ name_entry = Entry(root)
 name_entry.pack(fill='x')
 name_entry.insert(0, 'Enter your name')
 
+#Validattion for files, name, subject amd image
 def validate_and_send_emails():
     usercsv = usercsv_label['text']
     mailscsv = mailscsv_label['text']
