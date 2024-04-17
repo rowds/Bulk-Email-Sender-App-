@@ -1,19 +1,38 @@
-1. Create a google account and then turn on 2FA. After that create the google app passowrd.<br>
-2. Paste the app passowrds along with sender emails in to user.csv file.<br>
-3. paste all your recipients emails in mails.csv file.<br>
-4. Type your Messsages in to Message[i].txt files<br>
-5. You can have multipale emails messages, file name must be <br>
-Message1.txt<br>
-Message2.txt<br>
-Message3.txt<br>
-Message4.txt<br>
-6. If for any reason the program crashes or you close the program, 
-   when the program reruns again it will continue sending mails from where it was left off without repeating the same recipients. <br>
+# Bulk Email Sender App
 
-App pasword Link https://myaccount.google.com/apppasswords <br><br>
+This Python application allows you to send bulk emails with ease. It is built with tkinter for a user-friendly GUI experience.
 
+## Features
 
-To install requirements libraries, copy this code and paste in your Terminal.<br>
-pip install -r requirements.txt<br>
-Only for running python script, not needed for standalone exe.<br><br>
+- Send bulk emails from multiple sender accounts.
+- Attach images to your emails.
+- Customize the body of your emails with unique user IDs and order IDs.
+- Log all sent emails and errors encountered during the process.
+- User-friendly GUI built with tkinter.
+
+## How to Use
+
+1. Clone this repository to your local machine.
+2. Install the necessary Python libraries with `pip install -r requirements.txt`.
+3. Run the script with `python main.py`.
+4. Use the GUI to select your user CSV file, recipient CSV file, message directory, and optional image file.
+5. Input your reply-to email address, the subject of your email, and your name.
+6. Click 'Send Emails' to start sending the emails.
+
+## CSV File Formats
+
+- The user CSV file should contain the sender's email and password in each row.
+- The recipient CSV file should contain the recipient's email in each row.
+
+## Note
+
+Please ensure that you have the necessary permissions to send emails from the sender accounts. Also, be aware of the sending limits of your email provider to avoid getting your account blocked.
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+
+MIT
 
