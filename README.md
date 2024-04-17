@@ -4,7 +4,7 @@ This Python application allows you to send bulk emails with ease. It is built wi
 
 ## Features
 
-- Send bulk emails from multiple sender accounts.
+- Send bulk emails from multiple sender accounts (sender accounts should be gmail accounts only, with app password enable).
 - Attach images to your emails.
 - Customize the body of your emails with unique user IDs and order IDs.
 - Log all sent emails and errors encountered during the process.
